@@ -33,7 +33,7 @@ file = open("login.txt","r")
 file_text = file.read()
 file.close
 email_sender = 'prosechva@gmail.com'
-email_password = 'strlevqfydnxjspl'
+email_password = 'secretkey'
 email_reciever = str(file_text)
 
 subject = 'Uw Code'
